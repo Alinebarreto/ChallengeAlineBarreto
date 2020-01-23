@@ -1,0 +1,22 @@
+
+
+*** Settings ***
+Documentations   Documentaion API   https://jsonplaceholder.typicode.com/
+Resource         ResourceAPI.robot
+suite setup      conect my api
+
+*** Test Case***
+
+#GET /users
+TO-DO: get all users must have a name, username, and e-mail.
+#       Check if return all users must have a name, username, and email.
+TO-DO: Get their e-mail must be valid
+       Check if their Email must be valid.
+TO-DO: Get their Company catchphrase must have less than 50 characters.
+      Check if their Company catchphrase must have less than 50 characters.
+
+#POST /posts
+TO-DO: Do a new post using a userId got by "GET /users" API.
+        Check if save a new post using a userId got by "GET /users" API.
+TO-DO: Do a new post without the title
+        Check if API must return an error.
